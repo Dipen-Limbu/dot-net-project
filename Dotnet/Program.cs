@@ -1,5 +1,6 @@
 using Dotnet.Models;
 using Dotnet.Security;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
 namespace Dotnet
@@ -17,9 +18,19 @@ namespace Dotnet
             // Register DataSecurity provider
             builder.Services.AddSingleton<DataSecurityProvider>();
 
+            // add authentication and session services
+            builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(o => o.LoginPath = "/Login/Login");
+
+            builder.Services.AddSession(o =>
+            {
+                o.IdleTimeout = TimeSpan.FromMinutes(1);
+                o.Cookie.HttpOnly = true;
+            });
+
             // Add authentication and session services 
-         //   builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-               
+            //   builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
@@ -34,12 +45,21 @@ namespace Dotnet
                 app.UseHsts();
             }
 
+
+
+
             app.UseHttpsRedirection();
+
             app.UseRouting();
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 
+            app.UseSession();
+
             app.MapStaticAssets();
+
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=static}/{action=Index}/{id?}")

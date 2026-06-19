@@ -6,7 +6,7 @@
 
 
 
-<form asp-action="Register" asp-controller="RegisterController" class="max-w-md mx-auto" enctype="multipart/form-data">
+<form asp-action="Register" asp-controller="Register" class="max-w-md mx-auto" enctype="multipart/form-data">
     <div asp-validation-summary="ModelOnly" class="text-red-700"></div>
     <div class="relative z-0 w-full mb-5 group">
         <input asp-for="EmailAddress" type="email" class="block py-2.5 px-0 w-full text-sm text-heading bg-transparent border-0 border-b-2 border-default-medium appearance-none focus:outline-none focus:ring-0 focus:border-brand peer" placeholder=" " required />
@@ -45,6 +45,8 @@
     <input type="submit"
            class="btn text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none"
            value="Submit" />
+    <a asp-action="Login" asp-controller="Login" class="text-white bg-brand hover:bg-brand-strong box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-3 py-2 focus:outline-none">Login</a>
+
     </form>
 
 

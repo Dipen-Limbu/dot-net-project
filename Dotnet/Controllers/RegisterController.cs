@@ -29,7 +29,7 @@ namespace Dotnet.Controllers
         [HttpPost]
         public IActionResult Register(userEdit u)
         {
-            //return Json(u); to check the data coming from form
+            //return Json(u); //to check the data coming from form
             try
             {
                 var users = _context.UserLists.Where(x => x.EmailAddress == u.EmailAddress).FirstOrDefault();
@@ -40,6 +40,7 @@ namespace Dotnet.Controllers
                         maxid = Convert.ToInt16(_context.UserLists.Max(x => x.UserId) + 1);
                     else
                         maxid = 1;
+                    u.UserId = maxid;
 
                     if (u.UserFile != null)
                     {
@@ -63,6 +64,7 @@ namespace Dotnet.Controllers
                         UserRole = "Admin"
                     };
 
+                    //return Json(userList);
                     _context.Add(userList);
                     _context.SaveChanges();
 

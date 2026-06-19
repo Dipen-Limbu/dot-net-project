@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -6,71 +6,137 @@
     <title>@ViewData["Title"] - Dotnet</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
-    // for jquerry
+    @* for jquerry *@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/jquery/dist/jquery.slim.min.js"></script>
     <script src="~/lib/jquery/dist/jquery.slim.js"></script>
     <script src="~/lib/jquery/dist/jquery.js"></script>
 
-    // jquery validation
+    @* jquery validation *@
     <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
     <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
 
-    // jquery unontrusive validation ajax
+    @* jquery unontrusive validation ajax *@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ajax-unobtrusive/3.2.6/jquery.unobtrusive-ajax.min.js" integrity="sha512-DedNBWPF0hLGUPNbCYfj8qjlEnNE92Fqn7xd3Sscfu7ipy7Zu33unHdugqRD3c4Vj7/yLv+slqZhMls/4Oc7Zg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    // jquery validation additional method
+    @* jquery validation additional method *@
     <script src="~/lib/jquery-validation/dist/additional-methods.min.js"></script>
     <script src="~/lib/jquery-validation/dist/additional-methods.js"></script>
 
-    // jquery validation unobtrusive
+    @* jquery validation unobtrusive *@
     <script src="~/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"></script>
     <script src="~/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js"></script>
 
-    //font awesome
+    @* font awesome *@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    @* flowbite *@
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
 
     <script type="importmap"></script>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Dotnet.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Dotnet</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+    @if (User.Identity.IsAuthenticated)
+    {
+        <header>
+            <nav class="bg-gray-900 border-b border-gray-700">
+                <div class="max-w-screen-xl mx-auto flex items-center justify-between p-4">
+                    <!-- Logo -->
+                    <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                        <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Blog Max</span>
+                    </a>
+
+                    <!-- Navigation Links -->
+                    <ul class="flex items-center space-x-8 font-medium text-sm">
+                        <li>
+                            <a href="#" class="text-blue-500">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        <li>
+                            <a asp-action="Index" asp-controller="Home" class="text-gray-300 hover:text-blue-500">Users List</a>
+                        </li>
+                        <li>
+                            <a asp-action="Create" asp-controller="Home" class="text-gray-300 hover:text-blue-500">Add User</a>
+                        </li>
+                        <li>
+                            <a asp-action="AddBlog" asp-controller="Blog" class="text-gray-300 hover:text-blue-500">Add Blog</a>
+                        </li>
+                        <li>
+                            <a asp-action="Register" asp-controller="Account" class="text-gray-300 hover:text-blue-500">Register</a>
                         </li>
                     </ul>
+
+                    <!-- Profile -->
+                    <div class="relative flex items-center">
+                        <!-- Ajax call trigger -->
+                        <a data-ajax="true" data-ajax-method="get" data-ajax-update="#profile-img"
+                           class="btn-profile-img hidden"
+                           asp-action="ProfileImage" asp-controller="Home"></a>
+
+                        <!-- Profile Image -->
+                        <button id="profile-img" type="button"
+                                class="w-10 h-10 rounded-full bg-gray-600 overflow-hidden focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
+                            <span class="sr-only">Open user menu</span>
+                        </button>
+
+                        <!-- Dropdown Menu -->
+                        <div id="user-dropdown"
+                             class="z-50 hidden my-4 text-base list-none divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600 bg-white">
+                            <div class="px-4 py-3">
+                                <span class="block text-sm text-gray-900 dark:text-white">@User.FindFirst("FullName")?.Value</span>
+                                <span class="block text-sm text-gray-500 truncate dark:text-gray-400">@User.FindFirst("email")?.Value</span>
+                            </div>
+                            <ul class="py-2">
+                                <li>
+                                    <a asp-action="ProfileUpdate" asp-controller="Home"
+                                       class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-600">Profile</a>
+                                </li>
+                                <li>
+                                    <a asp-action="ChangePassword" asp-controller="Account"
+                                       class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-600">Change Password</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-600">Earnings</a>
+                                </li>
+                                <li>
+                                    <a asp-action="Logout" asp-controller="Account"
+                                       class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-600">Sign out</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
+            </nav>
+        </header>
+    }
+
+    <div class="container mx-auto mt-5">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
+    <footer class="border-top footer text-muted mt-10">
+        <div class="container mx-auto">
             &copy; 2026 - Dotnet - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <script>
+        $(document).ready(function () {
+            // load profile image only when authenticated
+            var btn = $(".btn-profile-img");
+            if (btn.length > 0) {
+                btn[0].click();
+            }
+        });
+    </script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
