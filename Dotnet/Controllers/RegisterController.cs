@@ -69,8 +69,8 @@ namespace Dotnet.Controllers
                     _context.SaveChanges();
 
                     // first one is method and second one is controller
-                    //return RedirectToAction("Login", "Login");
-                    return Json("Registered Successfully");
+                    return RedirectToAction("Login", "Login");
+                    //return Json("Registered Successfully");
                 }
 
                 else

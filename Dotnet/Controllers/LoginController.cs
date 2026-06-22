@@ -40,7 +40,8 @@ namespace Dotnet.Controllers
             if (users != null)
             {
                 var u = users.Where(x => x.EmailAddress.ToUpper().Equals(uEdit.EmailAddress.ToUpper()) && _protector.Unprotect(x.UserPassword).Equals(uEdit.UserPassword)).FirstOrDefault();
-                if (u != null) {
+                if (u != null)
+                {
                     List<Claim> claims = new()
                     {
                     new Claim(ClaimTypes.Name, u.UserId.ToString()),
@@ -72,13 +73,57 @@ namespace Dotnet.Controllers
         }
 
 
-        
+
 
         [Authorize]
         public IActionResult Dashboard()
         {
             return RedirectToAction("Index", "Home");
         }
+
+        [Authorize]
+        [HttpGet]
+        public IActionResult ChangePassword()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult ChangePassword(ChangePassword c)
+        {
+            var u = _context.UserLists.Where(e => e.UserId ==
+            Convert.ToInt16(User.Identity!.Name)).First();
+            if (_protector.Unprotect(u.UserPassword) != c.CurrentPassword)
+            {
+                ModelState.AddModelError("", "Current Password is Incorrect");
+                return View();
+            }
+
+            else
+            {
+                if (c.NewPassword == c.ConfirmPassword)
+                {
+                    u.UserPassword = _protector.Protect(c.NewPassword);
+                    _context.Update(u);
+                    _context.SaveChanges();
+
+                    //Add a success message to the TempData
+                    TempData["Success"] = "Your password has been changes successfully!";
+                    return View();
+                }
+
+                else
+                {
+                    ModelState.AddModelError("", "Confimr password does not match");
+                    return View(c);
+                }
+            }
+
+            TempData["Error"] = "An error occurred while changing your password. Please try again.";
+            return View();
+
+
+        }
+
     }
-    
 }
