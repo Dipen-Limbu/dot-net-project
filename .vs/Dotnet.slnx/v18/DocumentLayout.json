@@ -3,16 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\views\\shared\\_staticlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\views\\shared\\_staticlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\controllers\\staticcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\controllers\\staticcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\views\\login\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\views\\login\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\views\\login\\verifytoken.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\views\\login\\verifytoken.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\views\\login\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\views\\login\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\models\\useredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\models\\useredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\views\\login\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\views\\login\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\models\\changepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\models\\changepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\views\\login\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\views\\login\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\views\\register\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\views\\register\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -21,18 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\dotnet.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\dotnet.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\views\\register\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\views\\register\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -45,26 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\views\\home\\_profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\views\\home\\_profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\views\\shared\\_staticlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\views\\shared\\_staticlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\models\\useredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\models\\useredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\controllers\\staticcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\controllers\\staticcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\views\\static\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -98,49 +110,180 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "Dotnet\\Controllers\\LoginController.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Controllers\\LoginController.cs",
               "RelativeToolTip": "Dotnet\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAO0AAAAAAAAAAAAiwOMAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwIwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-23T07:54:12.433Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Dotnet",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Dotnet.csproj",
-              "RelativeDocumentMoniker": "Dotnet\\Dotnet.csproj",
-              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Dotnet.csproj",
-              "RelativeToolTip": "Dotnet\\Dotnet.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-22T09:13:45.282Z",
+              "DocumentIndex": 6,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "Dotnet\\Controllers\\RegisterController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "Dotnet\\Controllers\\RegisterController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAgwEcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T06:55:59.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Dotnet\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Dotnet\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T08:24:44.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StaticController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Controllers\\StaticController.cs",
+              "RelativeDocumentMoniker": "Dotnet\\Controllers\\StaticController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Controllers\\StaticController.cs",
+              "RelativeToolTip": "Dotnet\\Controllers\\StaticController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T08:12:27.725Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Dotnet\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Dotnet\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-16T07:38:57.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_StaticLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Shared\\_StaticLayout.cshtml",
+              "RelativeDocumentMoniker": "Dotnet\\Views\\Shared\\_StaticLayout.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Shared\\_StaticLayout.cshtml",
+              "RelativeToolTip": "Dotnet\\Views\\Shared\\_StaticLayout.cshtml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAFcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T08:14:24.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Program.cs",
+              "RelativeDocumentMoniker": "Dotnet\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Program.cs",
+              "RelativeToolTip": "Dotnet\\Program.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwDgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T07:35:31.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Login\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "Dotnet\\Views\\Login\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Login\\ResetPassword.cshtml",
+              "RelativeToolTip": "Dotnet\\Views\\Login\\ResetPassword.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwBwAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-24T07:02:19.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VerifyToken.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Login\\VerifyToken.cshtml",
+              "RelativeDocumentMoniker": "Dotnet\\Views\\Login\\VerifyToken.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Login\\VerifyToken.cshtml",
+              "RelativeToolTip": "Dotnet\\Views\\Login\\VerifyToken.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-24T07:33:32.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Login\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "Dotnet\\Views\\Login\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Login\\ForgotPassword.cshtml",
+              "RelativeToolTip": "Dotnet\\Views\\Login\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-24T07:03:53.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "userEdit.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Models\\userEdit.cs",
+              "RelativeDocumentMoniker": "Dotnet\\Models\\userEdit.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Models\\userEdit.cs",
+              "RelativeToolTip": "Dotnet\\Models\\userEdit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T06:56:26.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ChangePassword.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Login\\ChangePassword.cshtml",
               "RelativeDocumentMoniker": "Dotnet\\Views\\Login\\ChangePassword.cshtml",
               "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Login\\ChangePassword.cshtml",
               "RelativeToolTip": "Dotnet\\Views\\Login\\ChangePassword.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-06-22T08:53:31.977Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
+              "Title": "ChangePassword.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Models\\ChangePassword.cs",
+              "RelativeDocumentMoniker": "Dotnet\\Models\\ChangePassword.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Models\\ChangePassword.cs",
+              "RelativeToolTip": "Dotnet\\Models\\ChangePassword.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T07:53:05.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Register\\Register.cshtml",
               "RelativeDocumentMoniker": "Dotnet\\Views\\Register\\Register.cshtml",
@@ -153,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Login\\Login.cshtml",
               "RelativeDocumentMoniker": "Dotnet\\Views\\Login\\Login.cshtml",
@@ -161,51 +304,22 @@
               "RelativeToolTip": "Dotnet\\Views\\Login\\Login.cshtml",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAABkAAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-19T07:48:43.554Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-19T07:48:43.554Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RegisterController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Controllers\\RegisterController.cs",
-              "RelativeDocumentMoniker": "Dotnet\\Controllers\\RegisterController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Controllers\\RegisterController.cs",
-              "RelativeToolTip": "Dotnet\\Controllers\\RegisterController.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAgwEcAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T06:55:59.885Z",
-              "EditorCaption": ""
+              "DocumentIndex": 15,
+              "Title": "Dotnet",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Dotnet.csproj",
+              "RelativeDocumentMoniker": "Dotnet\\Dotnet.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Dotnet.csproj",
+              "RelativeToolTip": "Dotnet\\Dotnet.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-22T09:13:45.282Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ChangePassword.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Models\\ChangePassword.cs",
-              "RelativeDocumentMoniker": "Dotnet\\Models\\ChangePassword.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Models\\ChangePassword.cs",
-              "RelativeToolTip": "Dotnet\\Models\\ChangePassword.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBQAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T07:53:05.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Dotnet\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Dotnet\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAHkAAAAAAAAAAAAIwJAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-16T07:38:57.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Dotnet\\Views\\Home\\Privacy.cshtml",
@@ -213,12 +327,11 @@
               "RelativeToolTip": "Dotnet\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-16T07:40:35.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T07:40:35.513Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Dotnet\\Views\\Home\\Index.cshtml",
@@ -226,12 +339,11 @@
               "RelativeToolTip": "Dotnet\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-16T07:40:23.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T07:40:23.782Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "_profile.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Home\\_profile.cshtml",
               "RelativeDocumentMoniker": "Dotnet\\Views\\Home\\_profile.cshtml",
@@ -239,72 +351,11 @@
               "RelativeToolTip": "Dotnet\\Views\\Home\\_profile.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-19T08:29:51.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-19T08:29:51.708Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Program.cs",
-              "RelativeDocumentMoniker": "Dotnet\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Program.cs",
-              "RelativeToolTip": "Dotnet\\Program.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAkwDkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T07:35:31.875Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Dotnet\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Dotnet\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAxwCcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-19T08:24:44.605Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "_StaticLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Shared\\_StaticLayout.cshtml",
-              "RelativeDocumentMoniker": "Dotnet\\Views\\Shared\\_StaticLayout.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Shared\\_StaticLayout.cshtml",
-              "RelativeToolTip": "Dotnet\\Views\\Shared\\_StaticLayout.cshtml",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFcAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-17T08:14:24.843Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "userEdit.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Models\\userEdit.cs",
-              "RelativeDocumentMoniker": "Dotnet\\Models\\userEdit.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Models\\userEdit.cs",
-              "RelativeToolTip": "Dotnet\\Models\\userEdit.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwAQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T06:56:26.164Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "StaticController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Controllers\\StaticController.cs",
-              "RelativeDocumentMoniker": "Dotnet\\Controllers\\StaticController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Controllers\\StaticController.cs",
-              "RelativeToolTip": "Dotnet\\Controllers\\StaticController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T08:12:27.725Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Static\\Index.cshtml",
               "RelativeDocumentMoniker": "Dotnet\\Views\\Static\\Index.cshtml",
@@ -316,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "DataSecurityProvider.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Security\\DataSecurityProvider.cs",
               "RelativeDocumentMoniker": "Dotnet\\Security\\DataSecurityProvider.cs",
@@ -328,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "CrudContext.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Models\\CrudContext.cs",
               "RelativeDocumentMoniker": "Dotnet\\Models\\CrudContext.cs",
@@ -340,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\appsettings.json",
               "RelativeDocumentMoniker": "Dotnet\\appsettings.json",
@@ -352,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Dotnet\\Views\\_ViewStart.cshtml",
@@ -364,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Dotnet\\Views\\_ViewImports.cshtml",

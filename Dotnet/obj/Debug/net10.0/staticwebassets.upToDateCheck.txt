@@ -89,6 +89,7 @@ wwwroot\lib\tailwindcss\resolve-config-BIFUA2FY.d.ts
 wwwroot\UserImage\UserImage191db0a6-b251-4782-9736-a8cbf0de1352.png
 wwwroot\UserImage\UserImage221ee27f-5e03-4d4a-a176-991d2c60aa5d.png
 wwwroot\UserImage\UserImage38240f4b-53c2-4d9d-8ae9-bfefac5effc6.png
+wwwroot\UserImage\UserImage4c926f59-09a2-4931-9938-64ec4d695f39.png
 wwwroot\UserImage\UserImage79781eeb-283d-488b-802a-20dd1206a3ad.png
 wwwroot\UserImage\UserImageb548beb6-aef1-41bc-a577-5e8b11e92788.png
 C:\Users\user\Desktop\dot net first\Dotnet\Dotnet\wwwroot\css\site.css

@@ -163,7 +163,7 @@ namespace Dotnet.Controllers
                         From = new MailAddress("np05cp4a240011@iic.edu.np"),
                         Subject = "Forgot password token",
                         Body = $@"<p class='text-red-800' style='background-color:red;'>Forgot Password</p>
-                        <p style = 'background-color:blue;' > EmailTokenProvider ={_protector.Protect(token)}",
+                        <p style = 'background-color:blue;' > EmailTokenProvider ={token}",
                         IsBodyHtml = true,
                     };
 
