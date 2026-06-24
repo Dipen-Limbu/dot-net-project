@@ -4,10 +4,13 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.DataProtection;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.Net;
+using System.Net.Mail;
 using System.Reflection.Metadata.Ecma335;
 using System.Security.Claims;
-
+ 
 namespace Dotnet.Controllers
 {
     public class LoginController : Controller
@@ -124,6 +127,139 @@ namespace Dotnet.Controllers
 
 
         }
+
+
+        //for forgot password
+        [HttpGet]
+        public IActionResult ForgotPassword()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult ForgotPassword(userEdit edit)
+        {
+            if (edit.EmailAddress != null)
+            {
+                Random r = new Random();
+                HttpContext.Session.SetString("token", r.Next(9999).ToString());
+                var token = HttpContext.Session.GetString("token");
+                var user = _context.UserLists.Where(u => u.EmailAddress
+                == edit.EmailAddress).FirstOrDefault();
+                if (user != null)
+                {
+                    SmtpClient s = new()
+                    {
+                        Host = "smtp.gmail.com",
+                        Port = 587,
+                        Credentials = new NetworkCredential("np05cp4a240011@iic.edu.np", "avfx doau pemf urkx"),
+                        EnableSsl = true,
+                        DeliveryMethod = SmtpDeliveryMethod.Network
+
+                    };
+
+                    MailMessage m = new()
+                    {
+                        From = new MailAddress("np05cp4a240011@iic.edu.np"),
+                        Subject = "Forgot password token",
+                        Body = $@"<p class='text-red-800' style='background-color:red;'>Forgot Password</p>
+                        <p style = 'background-color:blue;' > EmailTokenProvider ={_protector.Protect(token)}",
+                        IsBodyHtml = true,
+                    };
+
+                    m.To.Add(user.EmailAddress);
+                    s.Send(m);
+                    //return Json("Success");
+                    return RedirectToAction("VerifyToken", new { email = user.EmailAddress });
+                }
+
+                else { 
+                ModelState.AddModelError("", "this email is not registered");
+                    return View(edit);
+
+                }
+            }
+
+        return Json("Failed");
+
+        }
+
+        [HttpGet]
+        public IActionResult VerifyToken(string email)
+        {
+            return View(new userEdit { EmailAddress = email});
+        }
+
+        [HttpPost]
+        public IActionResult VerifyToken(userEdit e)
+        {
+            var token = HttpContext.Session.GetString("token");
+            if (token == e.EmailToken)
+            {
+                var et = _protector.Protect(e.EmailToken!);
+                return RedirectToAction("ResetPassword",
+                    new userEdit { EmailAddress = e.EmailAddress, EmailToken = et });
+            }
+
+            else
+            { 
+            return Json("Failed");
+            }
+        }
+
+
+        // for reset password
+
+        [HttpGet]
+        public IActionResult ResetPassword(userEdit e)
+        {
+            try
+            {
+                //return Json(e);
+                var token = HttpContext.Session.GetString("token");
+                var eToken = _protector.Unprotect(e.EmailToken);
+                if (token == eToken)
+                {
+                    return View(new ChangePassword { EmailAddress = e.EmailAddress });
+                }
+
+                else 
+                {
+                 return RedirectToAction("ForgotPassword");
+                }
+            }
+
+            catch (Exception ex)
+            {
+                return RedirectToAction("ForgotPassword");
+            }
+        }
+
+        [HttpPost]
+        public IActionResult ResetPassword(ChangePassword model)
+        {
+            if (model.NewPassword == model.ConfirmPassword)
+            {
+                var user = _context.UserLists.FirstOrDefault(u => u.EmailAddress == model.EmailAddress);
+                if (user != null)
+                {
+                    user.UserPassword = _protector.Protect(model.NewPassword);
+                    _context.Update(user);
+                    _context.SaveChanges();
+                    return RedirectToAction("Login");
+                }
+            }
+
+            else
+            {
+                ModelState.AddModelError("", "Password does not match");
+                return View(model);
+            }
+
+            // return RedirectToAction("ForgotPassword");
+            return Json("error");
+        }
+
 
     }
 }
