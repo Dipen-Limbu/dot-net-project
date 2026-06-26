@@ -92,6 +92,8 @@ wwwroot\UserImage\UserImage38240f4b-53c2-4d9d-8ae9-bfefac5effc6.png
 wwwroot\UserImage\UserImage4c926f59-09a2-4931-9938-64ec4d695f39.png
 wwwroot\UserImage\UserImage79781eeb-283d-488b-802a-20dd1206a3ad.png
 wwwroot\UserImage\UserImageb548beb6-aef1-41bc-a577-5e8b11e92788.png
+wwwroot\UserImage\UserImaged3496c74-1a6f-40d8-a84d-d3d1122b04a7.png
+wwwroot\UserImage\UserImagee8599487-bf5d-4895-bebc-25f9ee6f7eb9.png
 C:\Users\user\Desktop\dot net first\Dotnet\Dotnet\wwwroot\css\site.css
 C:\Users\user\Desktop\dot net first\Dotnet\Dotnet\wwwroot\favicon.ico
 C:\Users\user\Desktop\dot net first\Dotnet\Dotnet\wwwroot\js\site.js

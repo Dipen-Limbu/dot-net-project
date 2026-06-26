@@ -1,4 +1,4 @@
-﻿using Dotnet.Models;
+using Dotnet.Models;
 using Dotnet.Security;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
@@ -57,13 +57,19 @@ namespace Dotnet.Controllers
                     var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
                     await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(identity));
 
+                    TempData["Success"] = "Login Successful! Welcome back.";
                     return RedirectToAction("Dashboard");
+
+                }
+                else
+                {
+                    // Email and password do not match any account
+                    TempData["Error"] = "Email and password do not match. Please try again.";
                 }
             }
-
             else
             {
-                ModelState.AddModelError("", "Invalid User");
+                TempData["Error"] = "Email and password do not match. Please try again.";
             }
             return View(uEdit);
 

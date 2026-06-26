@@ -1,10 +1,57 @@
-﻿@model Dotnet.Models.userEdit
+@model Dotnet.Models.userEdit
 @{
     Layout = "_StaticLayout";
-
 }
 
-<form  asp-action="Login" asp-controller="Login" class="max-w-sm mx-auto">
+@* ── Toast notifications ── *@
+@if (TempData["Success"] != null)
+{
+    <div id="toast-success"
+         class="fixed top-6 right-6 z-50 flex items-center w-full max-w-xs p-4 text-gray-500 bg-white rounded-lg shadow-lg border border-green-200"
+         role="alert">
+        <div class="inline-flex items-center justify-center flex-shrink-0 w-8 h-8 text-green-500 bg-green-100 rounded-lg">
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+            </svg>
+            <span class="sr-only">Check icon</span>
+        </div>
+        <div class="ms-3 text-sm font-medium text-green-700">@TempData["Success"]</div>
+        <button type="button"
+                onclick="document.getElementById('toast-success').remove()"
+                class="ms-auto -mx-1.5 -my-1.5 bg-white text-gray-400 hover:text-gray-900 rounded-lg p-1.5 hover:bg-gray-100 inline-flex items-center justify-center h-8 w-8">
+            <span class="sr-only">Close</span>
+            <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+            </svg>
+        </button>
+    </div>
+}
+
+@if (TempData["Error"] != null)
+{
+    <div id="toast-error"
+         class="fixed top-6 right-6 z-50 flex items-center w-full max-w-xs p-4 text-gray-500 bg-white rounded-lg shadow-lg border border-red-200"
+         role="alert">
+        <div class="inline-flex items-center justify-center flex-shrink-0 w-8 h-8 text-red-500 bg-red-100 rounded-lg">
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 11.793a1 1 0 1 1-1.414 1.414L10 11.414l-2.293 2.293a1 1 0 0 1-1.414-1.414L8.586 10 6.293 7.707a1 1 0 0 1 1.414-1.414L10 8.586l2.293-2.293a1 1 0 0 1 1.414 1.414L11.414 10l2.293 2.293Z" />
+            </svg>
+            <span class="sr-only">Error icon</span>
+        </div>
+        <div class="ms-3 text-sm font-medium text-red-700">@TempData["Error"]</div>
+        <button type="button"
+                onclick="document.getElementById('toast-error').remove()"
+                class="ms-auto -mx-1.5 -my-1.5 bg-white text-gray-400 hover:text-gray-900 rounded-lg p-1.5 hover:bg-gray-100 inline-flex items-center justify-center h-8 w-8">
+            <span class="sr-only">Close</span>
+            <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+            </svg>
+        </button>
+    </div>
+}
+
+<form asp-action="Login" asp-controller="Login" class="max-w-sm mx-auto">
+    <div asp-validation-summary="ModelOnly" class="text-red-700"></div>
     <div class="mb-5">
         <label asp-for="EmailAddress" class="block mb-2.5 text-sm font-medium text-heading">Your email</label>
         <input asp-for="EmailAddress" class="bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow placeholder:text-body" placeholder="name@flowbite.com" required />
@@ -12,8 +59,8 @@
     </div>
     <div class="mb-5">
         <label asp-for="UserPassword" class="block mb-2.5 text-sm font-medium text-heading">Your password</label>
-        <input asp-for="UserPassword"  class="bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow placeholder:text-body" placeholder="••••••••" required />
-        <span asp-validation-for="UserPassword" class="text-red-700">   </span>
+        <input asp-for="UserPassword" class="bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow placeholder:text-body" placeholder="••••••••" required />
+        <span asp-validation-for="UserPassword" class="text-red-700"></span>
     </div>
     <div class="flex items-start mb-5">
         <label for="remember-alternative" class="flex items-center h-5">
@@ -21,8 +68,17 @@
             <p class="ms-2 text-sm font-medium text-heading select-none">I agree with the <a href="#" class="text-fg-brand hover:underline">terms and conditions</a>.</p>
         </label>
     </div>
-    <button type="submit" class=" btn text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none">Submit</button>
+    <button type="submit" class="btn text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none">Submit</button>
     <a asp-action="Register" asp-controller="Register" class="text-white bg-brand hover:bg-brand-strong box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-2 py-2 focus:outline-none">Create a new account</a>
     <a asp-action="ForgotPassword" asp-controller="Login" class="btn bg-blue-100">Forgot password</a>
-
 </form>
+
+@* Auto-dismiss toasts after 4 seconds *@
+<script>
+    setTimeout(function () {
+        var s = document.getElementById('toast-success');
+        if (s) s.remove();
+        var e = document.getElementById('toast-error');
+        if (e) e.remove();
+    }, 4000);
+</script>
