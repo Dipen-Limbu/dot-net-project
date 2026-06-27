@@ -1,3 +1,4 @@
+wwwroot\BlogImage\dc9c25a1-fb51-4797-b32c-4ad071f48093.jpg
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\site.js

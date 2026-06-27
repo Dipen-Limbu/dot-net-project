@@ -1,4 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 
 namespace Dotnet.Models
 {
@@ -10,7 +10,7 @@ namespace Dotnet.Models
 
         public string? PostDescription { get; set; }
 
-        public string Content { get; set; } = null!;
+        public string? Content { get; set; }
 
         public DateTime PublishedDate { get; set; }
 

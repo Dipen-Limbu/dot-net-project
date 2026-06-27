@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\views\\blog\\addblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\views\\blog\\addblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\views\\blog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\views\\blog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\views\\blog\\viewdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\views\\blog\\viewdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\models\\blogpostedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\models\\blogpostedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\views\\shared\\_staticlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\views\\shared\\_staticlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,6 +35,10 @@
       "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,28 +47,8 @@
       "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\views\\register\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\views\\blog\\addblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\views\\blog\\addblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\views\\blog\\blogpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\views\\blog\\blogpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\models\\blogpostedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\models\\blogpostedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\views\\shared\\_staticlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\views\\shared\\_staticlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\controllers\\staticcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -91,10 +91,6 @@
       "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|c:\\users\\user\\desktop\\dot net first\\dotnet\\dotnet\\views\\home\\_profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4342F9CB-B567-BAAB-EA62-E2794578E78F}|Dotnet\\Dotnet.csproj|solutionrelative:dotnet\\views\\home\\_profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -126,17 +122,65 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ViewDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Blog\\ViewDetails.cshtml",
+              "RelativeDocumentMoniker": "Dotnet\\Views\\Blog\\ViewDetails.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Blog\\ViewDetails.cshtml",
+              "RelativeToolTip": "Dotnet\\Views\\Blog\\ViewDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-26T07:44:23.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Blog\\Index.cshtml",
+              "RelativeDocumentMoniker": "Dotnet\\Views\\Blog\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Blog\\Index.cshtml",
+              "RelativeToolTip": "Dotnet\\Views\\Blog\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-26T07:11:54.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddBlog.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Blog\\AddBlog.cshtml",
+              "RelativeDocumentMoniker": "Dotnet\\Views\\Blog\\AddBlog.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Blog\\AddBlog.cshtml",
+              "RelativeToolTip": "Dotnet\\Views\\Blog\\AddBlog.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABsAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-25T08:07:31.197Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Dotnet\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Dotnet\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAA4wEQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T07:54:12.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "BlogController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Controllers\\BlogController.cs",
               "RelativeDocumentMoniker": "Dotnet\\Controllers\\BlogController.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Controllers\\BlogController.cs",
               "RelativeToolTip": "Dotnet\\Controllers\\BlogController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAuwB8AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-25T07:08:18.309Z",
               "EditorCaption": ""
@@ -144,71 +188,42 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "RegisterController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Controllers\\RegisterController.cs",
-              "RelativeDocumentMoniker": "Dotnet\\Controllers\\RegisterController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Controllers\\RegisterController.cs",
-              "RelativeToolTip": "Dotnet\\Controllers\\RegisterController.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAgwBQAAAAAAAAAAAAAAA==",
+              "Title": "BlogPostEdit.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Models\\BlogPostEdit.cs",
+              "RelativeDocumentMoniker": "Dotnet\\Models\\BlogPostEdit.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Models\\BlogPostEdit.cs",
+              "RelativeToolTip": "Dotnet\\Models\\BlogPostEdit.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAxwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T06:55:59.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-25T06:58:27.178Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Dotnet\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Dotnet\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAgwEQAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T07:54:12.433Z",
-              "EditorCaption": ""
+              "DocumentIndex": 5,
+              "Title": "_StaticLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Shared\\_StaticLayout.cshtml",
+              "RelativeDocumentMoniker": "Dotnet\\Views\\Shared\\_StaticLayout.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Shared\\_StaticLayout.cshtml",
+              "RelativeToolTip": "Dotnet\\Views\\Shared\\_StaticLayout.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGsAAADZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T08:14:24.843Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Login\\Login.cshtml",
               "RelativeDocumentMoniker": "Dotnet\\Views\\Login\\Login.cshtml",
               "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Login\\Login.cshtml",
               "RelativeToolTip": "Dotnet\\Views\\Login\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABTAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADUAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-19T07:48:43.554Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-19T07:48:43.554Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Register\\Register.cshtml",
-              "RelativeDocumentMoniker": "Dotnet\\Views\\Register\\Register.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Register\\Register.cshtml",
-              "RelativeToolTip": "Dotnet\\Views\\Register\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-17T08:34:33.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Dotnet\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Dotnet\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-16T07:38:57.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\appsettings.json",
               "RelativeDocumentMoniker": "Dotnet\\appsettings.json",
@@ -216,47 +231,31 @@
               "RelativeToolTip": "Dotnet\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-16T07:42:13.768Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AddBlog.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Blog\\AddBlog.cshtml",
-              "RelativeDocumentMoniker": "Dotnet\\Views\\Blog\\AddBlog.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Blog\\AddBlog.cshtml",
-              "RelativeToolTip": "Dotnet\\Views\\Blog\\AddBlog.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-25T08:07:31.197Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BlogPost.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Blog\\BlogPost.cshtml",
-              "RelativeDocumentMoniker": "Dotnet\\Views\\Blog\\BlogPost.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Blog\\BlogPost.cshtml",
-              "RelativeToolTip": "Dotnet\\Views\\Blog\\BlogPost.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-25T07:26:01.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T07:42:13.768Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "BlogPostEdit.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Models\\BlogPostEdit.cs",
-              "RelativeDocumentMoniker": "Dotnet\\Models\\BlogPostEdit.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Models\\BlogPostEdit.cs",
-              "RelativeToolTip": "Dotnet\\Models\\BlogPostEdit.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAABoAAAAwAAAAAAAAAA==",
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "Dotnet\\Controllers\\RegisterController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "Dotnet\\Controllers\\RegisterController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAgwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T06:58:27.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-17T06:55:59.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Register\\Register.cshtml",
+              "RelativeDocumentMoniker": "Dotnet\\Views\\Register\\Register.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Register\\Register.cshtml",
+              "RelativeToolTip": "Dotnet\\Views\\Register\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T08:34:33.895Z"
             },
             {
               "$type": "Document",
@@ -285,18 +284,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "_StaticLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Shared\\_StaticLayout.cshtml",
-              "RelativeDocumentMoniker": "Dotnet\\Views\\Shared\\_StaticLayout.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Shared\\_StaticLayout.cshtml",
-              "RelativeToolTip": "Dotnet\\Views\\Shared\\_StaticLayout.cshtml",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAAAFcAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-17T08:14:24.843Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Program.cs",
               "RelativeDocumentMoniker": "Dotnet\\Program.cs",
@@ -304,8 +291,7 @@
               "RelativeToolTip": "Dotnet\\Program.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAQwDgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T07:35:31.875Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T07:35:31.875Z"
             },
             {
               "$type": "Document",
@@ -405,18 +391,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Dotnet\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Dotnet\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-16T07:40:23.782Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
               "Title": "_profile.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Home\\_profile.cshtml",
               "RelativeDocumentMoniker": "Dotnet\\Views\\Home\\_profile.cshtml",
@@ -428,7 +402,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\Static\\Index.cshtml",
               "RelativeDocumentMoniker": "Dotnet\\Views\\Static\\Index.cshtml",
@@ -440,7 +414,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "DataSecurityProvider.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Security\\DataSecurityProvider.cs",
               "RelativeDocumentMoniker": "Dotnet\\Security\\DataSecurityProvider.cs",
@@ -452,7 +426,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "CrudContext.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Models\\CrudContext.cs",
               "RelativeDocumentMoniker": "Dotnet\\Models\\CrudContext.cs",
@@ -464,7 +438,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Dotnet\\Views\\_ViewStart.cshtml",
@@ -476,7 +450,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\dot net first\\Dotnet\\Dotnet\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Dotnet\\Views\\_ViewImports.cshtml",

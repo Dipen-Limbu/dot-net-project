@@ -1,0 +1,47 @@
+@model BlogPostEdit
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = Model?.Title ?? "Blog Details";
+}
+
+<div class="max-w-4xl mx-auto mt-10 bg-white shadow-lg rounded-lg overflow-hidden">
+
+    @* Back button *@
+    <div class="px-8 pt-6">
+        <a asp-controller="Blog" asp-action="Index"
+           class="inline-flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 font-medium">
+            &larr; Back to Blogs
+        </a>
+    </div>
+
+    @* Author row *@
+    <div class="flex items-center gap-4 px-8 py-6 border-b">
+        <img src="~/UserImage/@Model.UserProfile"
+             class="w-14 h-14 rounded-full object-cover border-2 border-blue-200" />
+        <div>
+            <p class="font-semibold text-gray-800">@Model.UploadUserName</p>
+            <p class="text-sm text-gray-500">@Model.PublishedDate.ToString("dd MMM yyyy")</p>
+        </div>
+    </div>
+
+    @* Blog image (if uploaded) *@
+    @if (!string.IsNullOrEmpty(Model.Content) && !Model.Content.Contains("<"))
+    {
+        <img src="~/BlogImage/@Model.Content"
+             class="w-full max-h-96 object-cover" alt="Blog image" />
+    }
+
+    @* Content body *@
+    <div class="px-8 py-8">
+        <h1 class="text-4xl font-bold text-gray-900 mb-4">@Model.Title</h1>
+        <p class="text-gray-500 text-lg mb-6">@Model.PostDescription</p>
+
+        @if (!string.IsNullOrEmpty(Model.Content) && Model.Content.Contains("<"))
+        {
+            <div class="prose max-w-none text-gray-700">
+                @Html.Raw(Model.Content)
+            </div>
+        }
+    </div>
+
+</div>

@@ -1,0 +1,63 @@
+@model IEnumerable<BlogPostEdit>
+
+@{
+    ViewData["Title"] = "Blogs";
+}
+
+<div class="max-w-7xl mx-auto py-10 px-4">
+
+    <h1 class="text-4xl font-bold text-center mb-10">
+        Latest Blogs
+    </h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        @foreach (var blog in Model)
+        {
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition">
+
+                <!-- Author Section -->
+                <div class="flex items-center gap-3 p-4 border-b">
+
+                    <img src="~/UserImage/@blog.UserProfile"
+                         alt="Profile"
+                         class="w-12 h-12 rounded-full object-cover" />
+
+                    <div>
+                        <p class="font-semibold">
+                            @blog.UploadUserName
+                        </p>
+
+                        <p class="text-sm text-gray-500">
+                            @blog.PublishedDate.ToString("dd MMM yyyy")
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- Content -->
+                <div class="p-6">
+
+                    <h2 class="text-2xl font-bold mb-3">
+                        @blog.Title
+                    </h2>
+
+                    <p class="text-gray-600 mb-4">
+                        @blog.PostDescription
+                    </p>
+
+                    <a asp-controller="Blog"
+                       asp-action="Details"
+                       asp-route-id="@blog.EncId"
+                       class="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+                        Read More
+                    </a>
+
+                </div>
+
+            </div>
+        }
+
+    </div>
+
+</div>

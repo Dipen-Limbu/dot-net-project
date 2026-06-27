@@ -236,10 +236,10 @@ C:\Users\user\Desktop\dot net first\Dotnet\Dotnet\obj\Debug\net10.0\staticwebass
 C:\Users\user\Desktop\dot net first\Dotnet\Dotnet\obj\Debug\net10.0\staticwebassets.development.json
 C:\Users\user\Desktop\dot net first\Dotnet\Dotnet\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Users\user\Desktop\dot net first\Dotnet\Dotnet\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\user\Desktop\dot net first\Dotnet\Dotnet\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\user\Desktop\dot net first\Dotnet\Dotnet\obj\Debug\net10.0\Dotnet.csproj.Up2Date
 C:\Users\user\Desktop\dot net first\Dotnet\Dotnet\obj\Debug\net10.0\Dotnet.dll
 C:\Users\user\Desktop\dot net first\Dotnet\Dotnet\obj\Debug\net10.0\refint\Dotnet.dll
 C:\Users\user\Desktop\dot net first\Dotnet\Dotnet\obj\Debug\net10.0\Dotnet.pdb
 C:\Users\user\Desktop\dot net first\Dotnet\Dotnet\obj\Debug\net10.0\Dotnet.genruntimeconfig.cache
 C:\Users\user\Desktop\dot net first\Dotnet\Dotnet\obj\Debug\net10.0\ref\Dotnet.dll
+C:\Users\user\Desktop\dot net first\Dotnet\Dotnet\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
